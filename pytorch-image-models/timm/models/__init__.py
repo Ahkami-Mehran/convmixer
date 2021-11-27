@@ -1,3 +1,6 @@
+import sys
+sys.path.append("./convmixer")  # To solve relative path issues
+
 from .beit import *
 from .byoanet import *
 from .byobnet import *
