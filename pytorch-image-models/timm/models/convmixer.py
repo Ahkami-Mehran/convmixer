@@ -1,5 +1,7 @@
 import sys
-sys.path.append('../../../')
+import os
+#sys.path.append("/misc/student/ahkamian/Master-Project/convmixer/pytorch-image-models/")
+#print(sys.path)
 from convmixer import ConvMixer
 from timm.data import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
 from timm.models.registry import register_model
