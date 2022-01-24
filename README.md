@@ -79,3 +79,4 @@ def ConvMixr(h,d,k,p,n):
  R=type('',(S,),{'forward':lambda s,x:s[0](x)+x})
  return S(A(C(3,h,p,p)),*[S(R(A(C(h,h,k,groups=h,padding=k//2))),A(C(h,h,1))) for i in range(d)],AdaptiveAvgPool2d((1,1)),Flatten(),Linear(h,n))
 ```
+
