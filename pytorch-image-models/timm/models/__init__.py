@@ -28,6 +28,7 @@ from .mobilenetv3 import *
 from .nasnet import *
 from .nest import *
 from .nfnet import *
+from .patchconvnet_models import *
 from .pit import *
 from .pnasnet import *
 from .regnet import *
